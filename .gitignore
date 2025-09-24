@@ -1,0 +1,77 @@
+# Data folder - contains large sequencing files
+data/
+
+# Results folder when it contains large output files
+results/**.bam
+results/**.sam
+results/**.fastq
+results/**.fastq.gz
+results/**.fq
+results/**.fq.gz
+
+# R and RStudio files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
+
+# R Markdown output files
+*.html
+*.pdf
+report/*.html
+report/*.pdf
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.#*
+
+# Log files
+*.log
+
+# Conda/Mamba environment
+.conda/
+.mamba/
+
+# Docker build context (if needed)
+.dockerignore
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Large reference files (add specific patterns as needed)
+*.fa
+*.fasta
+*.gtf
+*.gff
+*.bed
+*.wig
+*.bigWig
+*.bw
+
+# Backup files
+*.bak
+*.backup

@@ -1,0 +1,85 @@
+/* Logo and branding styles */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 30px;
+}
+
+.logo {
+    max-height: 80px;
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.logo-subtitle {
+    font-size: 14px;
+    color: #7f8c8d;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+/* Header customization */
+.header-logo {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0;
+}
+
+.header-logo h1 {
+    margin: 0;
+    color: white;
+    border: none;
+    font-size: 28px;
+}
+
+/* Bioinformatics specific styling */
+.chip-seq-header {
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.analysis-badge {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Responsive design for logos */
+@media (max-width: 768px) {
+    .logo-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .logo-text {
+        font-size: 20px;
+    }
+}

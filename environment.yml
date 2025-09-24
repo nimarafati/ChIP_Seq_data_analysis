@@ -1,0 +1,55 @@
+name: chipseq-analysis
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # Core R environment
+  - r-base>=4.0
+  - r-essentials
+  
+  # R packages for analysis and reporting
+  - r-knitr
+  - r-rmarkdown
+  - r-dt
+  - r-plotly
+  - r-ggplot2
+  - r-dplyr
+  - r-readr
+  - r-stringr
+  - r-tidyverse
+  
+  # Bioinformatics tools
+  - fastqc
+  - trimmomatic
+  - bwa
+  - bowtie2
+  - samtools
+  - bedtools
+  - macs2
+  - deeptools
+  - homer
+  
+  # Quality control and visualization
+  - multiqc
+  - igv
+  
+  # Python environment (for some tools)
+  - python>=3.8
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pysam
+  
+  # System utilities
+  - wget
+  - curl
+  - unzip
+  - gzip
+  
+  # Optional: Jupyter for interactive analysis
+  - jupyter
+  - r-irkernel
+  
+prefix: chipseq-analysis
